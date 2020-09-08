@@ -1,0 +1,233 @@
+.main
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 500px!important;
+  margin-top: 5%;
+
+}
+.main-form section
+{
+    background-color: white;
+    padding: 10px 14px 10px 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+}
+.main-form1 section
+{
+    background-color: white;
+    padding: 2px 14px 10px 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+}
+.logo
+{
+  margin-bottom: 10%;
+  margin-left: 15%;
+  width: 332px!important;
+
+}
+.showBar
+{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+  width: 100%;
+  margin-top: 10px ;
+  align-content: flex-start;
+  
+
+}
+.line1
+{
+ width: 50%;
+}
+.line-text
+{
+ margin-top: 3px;
+ color: #bababa;
+ font-size: 14px;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.line2
+{
+  width: 50%;
+}
+
+.input-field {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 44px;
+  margin-top: 20px;
+
+}
+::placeholder
+{
+color: #d2d3d6;
+
+}
+.user-label {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 100%;
+  color: black;
+  transition: 0.2s all;
+  cursor: text;
+  font-weight: 500;
+  font-size: 16px;
+    margin-top: 5px;
+  /* identical to box height */
+  
+  
+  color: #707070;
+  
+}
+.user-fields 
+{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow:none;
+  color: #111;
+}
+.user-fields:invalid {
+  outline: 0;
+ 
+}
+.user-fields:focus,
+.user-fields:valid {
+  border-color: #f5aa76;
+}
+.user-fields:focus~.user-label,
+.user-fields:valid~.user-label ~.icon {
+  font-size: 14px;
+  top: -20px;
+  color: #f5aa76;
+}
+
+.submit-button 
+{
+  margin-top: 7%;
+  background-color: #f5aa76;
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.submit-button:hover 
+{
+  opacity: 1;
+}
+
+.icon
+{
+  position: absolute;
+  text-align: center;
+  margin-left: 95%;
+  margin-top: 23px;
+  color: #bababa;
+}
+.icon:hover
+{
+  color: #f5aa76;
+  opacity: 1;
+  cursor: pointer;
+}
+.frgt-rmb
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+.page-link1
+{
+    text-align: center;
+    font-size: 12px;
+    border: none!important;
+    
+}
+@media (max-width:416px)
+{
+    .logo{
+        width: 200px!important;
+    }
+}
+
+.login-head
+{
+    font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #707070;
+}
+.login-para
+
+{
+    font-size: 16px;
+line-height: 22px;
+
+/* Text Colour */
+
+color: #707070;
+}
+
+
+
+.faqHeading
+{
+    margin-top: 5%;
+    
+}
+.mb-50
+{
+    margin-bottom:20% ;
+    padding-left:15% ;
+    padding-right:15% ;
+}
+
+.accordian-Header{
+    background-color:white!important;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.accoridan-specs-font{
+    
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 142.69%;
+/* identical to box height, or 20px */
+
+
+color: #8D8D8D;
+}
+.accordian-toggle-specs{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+.accordian-specs{
+    max-width: 775px;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 100px;
+}

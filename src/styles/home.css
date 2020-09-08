@@ -1,0 +1,284 @@
+.carousel-indicators li
+{
+    width: 8px!important;
+    height: 8px!important;
+    background-color:  #E9E9E9!important;
+}
+.carousel-indicators .active
+{
+  background-color:  #F5AA75!important;
+}
+.carousel-indicators
+{
+    bottom: -41px!important;
+    
+}
+.txt
+{
+    margin: 15% 2rem 1rem 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.text-description
+{
+    max-width: 492px;
+    font-size: 16px;
+line-height: 161.69%;
+/* or 26px */
+
+
+color: #7C7C7C;
+}
+.ml-2rm
+{
+    margin-left: 2rem;
+}
+
+.box-container
+{
+    margin: 42px 8% 67px 8%!important;
+    padding: 5.5%;
+}
+.box-container1
+{
+    margin: 42px 8% 67px 8%!important;
+ }
+
+.bg-box-color
+{
+    background: #F5F7F9;
+}
+.tag
+{
+    font-size: 16px;
+line-height: 157.69%;
+/* or 25px */
+
+
+color: #7C7C7C;
+
+}
+
+.tag-head
+{
+    font-weight: 900;
+font-size: 25px;
+line-height: 151.69%;
+/* or 38px */
+
+letter-spacing: 0.005em;
+text-transform: capitalize;
+
+color: #626262;
+
+}
+
+.tag-para
+{
+    max-width: 532px;
+
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 161.69%;
+/* or 27px */
+
+
+color: #7C7C7C;
+}
+.tag-box{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.tag-box-line1
+{
+    width: 51px;
+    height: 4px;
+    background-color: rgb(245, 170, 117);
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.tag-box-line2
+{
+    width: 19px;
+    height: 4px;
+    background-color: rgb(202 202 202);
+    margin-top: 13px;
+    margin-left: 10px;
+
+}
+
+.product-Head
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn-outline-prm
+{
+    border: 1px solid #F5AA75!important;
+    height: 42px;
+}
+.brd-none
+{
+    border: none!important;
+  
+}
+
+.box-img {
+    margin-left: 3rem;
+    width:162pxpx!important;
+    align-self: center;
+    margin-top: 20px;
+}
+.card-Box{
+    background: #FFFFFF!important;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11)!important;
+border-radius: 7px!important;
+}
+.card-box-h
+{
+    font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.005em;
+text-transform: capitalize;
+
+color: #656768;
+
+}
+
+.card-box-p
+{
+    font-weight: normal;
+font-size: 16px;
+line-height: 157.69%;
+/* or 25px */
+
+text-align: center;
+
+color: #7C7C7C;
+}
+
+.whatwe-head{
+    font-weight: 900;
+font-size: 25px;
+line-height: 151.69%;
+/* or 38px */
+
+letter-spacing: 0.005em;
+text-transform: capitalize;
+
+color: #626262;
+text-align: center;
+}
+.whatwe-para{
+    font-size: 17px;
+line-height: 161.69%;
+/* or 27px */
+
+text-align: center;
+
+color: #7C7C7C;
+max-width: 457px;
+margin: auto;
+}
+
+.whatyouGetCard
+{
+    background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+border-radius: 7px;
+display: flex;
+padding-top: 31px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding-bottom: 27px;
+
+}
+
+.whatWegetMargin
+{
+    margin-top: 8%;
+}
+.sub-part
+{
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-position: center; }
+
+    .sub-h
+{font-weight: bold;
+    font-size: 34px;
+    line-height: 151.69%;
+    /* or 52px */
+    
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    
+    color: #626262;
+    text-align: center;
+    
+
+}
+
+
+.sub-text-input{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 64px;
+    max-width:  612px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-text-input .input-group input
+{
+    border: none!important;
+    background: #FFFFFF!important;
+    border-top-left-radius: 64px!important;
+    border-bottom-left-radius: 64px!important;
+    height: 64px;
+}
+.bt-tp10{
+    
+    margin-left:5%;
+    
+}
+
+#basic-addon2{
+    background: #F5AA75!important;
+    border-radius: 55px!important;
+    color: white!important;
+    padding: 0px 32px 0px 32px;
+}
+.bt-tp10{
+}
+@media only screen and (max-width: 961px)  {
+    
+    .text-first
+    {
+        margin-top: -111px!important;
+    }
+    .bt-tp10{
+    margin-bottom: 20px!important;
+    margin-left: 10%;
+        width:180px;
+        height: 70px;
+}
+.btn-fndm{
+    height: 62px!important;
+}
+}

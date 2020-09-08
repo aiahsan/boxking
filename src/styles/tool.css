@@ -1,0 +1,329 @@
+.toolNav
+{
+    background: #FFFFFF;
+box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+height: 85px;
+display: flex;
+justify-content: center;
+}
+.topEditor
+{
+    display: flex;
+    justify-content: center;
+}
+
+.img-Box-tool
+{
+    background: #FFFFFF!important;
+border: 0.5px solid #D8D8D8;
+box-sizing: border-box;
+padding: 12px;
+margin-top: 4%;
+margin-left: 1px;
+border-radius: 0px!important;
+
+}
+
+.col-sm-3 .flex-column .nav-item
+{
+    padding: 10px;
+    width: 60px;
+    background: white!important;
+} 
+
+.col-sm-3 .flex-column .nav-item .active
+{
+    background: white!important;
+} 
+.rwt__tab{
+padding: 8px!important;
+}
+
+.img-tl
+{
+    width:20px;height:20px;
+}
+.dpt-headBox
+{
+height: 37px;
+
+
+background: #EEEEEE;
+}
+.dpt-headtext
+{
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+padding-top: 6px;
+
+color: #848484;
+}
+.rwt__tabpanel
+{
+    margin-left: -16px;
+    background: white;
+}
+.rwt__tablist
+{
+    background: white;
+}
+.colorPickBox
+{
+    margin:16px 0px 0px 18px ;
+}
+.colorPickHead
+{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    
+    /* Text Colour */
+    
+    color: #707070;
+}
+.dropdown .btn-primary
+{
+    height: 37px;
+    width: 100%;
+border: 1px solid #EBEBEB!important;
+box-sizing: border-box;
+background-color: white!important;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+
+/* Text Colour */
+
+color: #707070;
+
+margin: 18px;}
+
+.dropdown .btn-primary:hover
+{
+    color: #333!important;
+}
+.dd-box
+{
+    width: 85%;
+}
+.ml-16
+{
+    margin-left:16px ;
+}
+.size-editor
+{
+    display:flex;
+    justify-content:space-between;
+}
+.input-range__label-container
+{
+    display: none!important;
+}
+.input-range__slider
+{
+    background: #F5AA75!important;
+    border: 1px solid #F5AA75!important;
+}
+.input-range__track--active{
+    background: #F5AA75!important;
+
+}
+.tool-back
+{
+    background: #E5E5E5;
+}
+.editor-pan-pabel
+{
+    padding-right: 19px;
+}
+
+.too-h1{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Arizonia';
+    max-width: 180px;
+}
+
+.too-h2{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Marmelad';
+    max-width: 180px;
+}
+
+.too-h3{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Kosugi';
+    max-width: 180px;
+}
+
+.too-h4{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Acme';
+    max-width: 180px;
+}
+
+.too-h5{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Allan';
+    max-width: 180px;
+}
+
+.tool-text
+{
+    max-width: 202px;
+    padding: 3px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 7px;
+}
+
+.m-16
+{
+    margin: 16px;
+}
+
+
+.fileContainer .chooseFileButton
+{
+     background: #e46522!important;
+}
+.fileContainer .deleteImage
+{
+    background: #e46522!important;
+}
+
+
+/*tool css*/
+.fileUploader {
+	width: 100%;
+}
+
+.fileContainer {
+	background: #fff;
+	box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.05);
+	position: relative;
+	border-radius: 10px;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px auto;
+	transition: all 0.3s ease-in;
+}
+
+.fileContainer input {
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.fileContainer p {
+	font-size: 12px;
+	margin: 8px 0 4px;
+}
+
+.fileContainer .errorsContainer {
+	max-width: 300px;
+	font-size: 12px;
+	color: red;
+	text-align: left;
+}
+
+.fileContainer .chooseFileButton {
+	padding: 6px 23px;
+	background: #3f4257;
+	border-radius: 30px;
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+	margin: 10px 0;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.fileContainer .chooseFileButton:hover {
+	background: #545972;
+}
+
+.fileContainer .uploadFilesButton {
+	padding: 5px 43px;
+	background: transparent;
+	border-radius: 30px;
+	color: #3f4257;
+	font-weight: 300;
+	font-size: 14px;
+	margin: 10px 0;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid #3f4257;
+}
+
+.fileContainer .uploadFilesButton:hover {
+	background: #3f4257;
+	color: #fff;
+}
+
+.fileContainer .uploadIcon {
+	width: 50px;
+	height: 50px;
+}
+
+.fileContainer .uploadPicturesWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.fileContainer .uploadPictureContainer {
+	width: 25%;
+	margin: 5%;
+	padding: 10px;
+	background: #edf2f6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	border: 1px solid #d0dbe4;
+	position: relative;
+}
+
+.fileContainer .uploadPictureContainer img.uploadPicture {
+	width: 100%;
+}
+
+.fileContainer .deleteImage {
+	position: absolute;
+	top: -9px;
+	right: -9px;
+	color: #fff;
+	background: #ff4081;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+}
+
+.flipMove {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}

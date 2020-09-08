@@ -1,0 +1,38 @@
+.strip
+{
+    display: flex;
+    justify-content: space-between;
+    height: 33px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.strip-child
+{
+    
+    justify-content: center;
+    display: flex;
+
+}
+.strip-child div p
+{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 10px;
+    
+    color: #FFFFFF;
+}
+
+@media (max-width:507px)
+{
+    .strip{
+        justify-content: center!important;
+
+    }
+
+    .strip .strip-child .ml-5
+    {
+        display: none!important;
+    }
+}

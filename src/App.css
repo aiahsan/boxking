@@ -1,0 +1,48 @@
+@import "./styles/navBar.css";
+@import "./styles/strip.css";
+@import "./styles/home.css";
+@import "./styles/footer.css";
+@import "./styles/login.css";
+@import "./styles/productListing.css";
+@import "./styles/cart.css";
+@import "./styles/tool.css";
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto Condensed");
+@import url("https://fonts.googleapis.com/css?family=Arizonia");
+
+@import url("https://fonts.googleapis.com/css?family=Kosugi");
+@import url("https://fonts.googleapis.com/css?family=Marmelad");
+@import url("https://fonts.googleapis.com/css?family=Acme");
+@import url("https://fonts.googleapis.com/css?family=Allan");
+
+*{
+    font-family: 'Ubuntu';
+    
+}
+#my-canvas{
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+}
+.btn-link {
+    color: #fd6900!important;
+}
+.card{
+
+    background-color: #fff!important;
+    border: 1px solid rgb(255 255 255)!important;
+}
+.m-0-0
+{
+    margin-right: 0!important; 
+    margin-left: 0!important;
+}
+.row
+{
+    margin-right: 0!important; 
+    margin-left: 0!important;
+}
